@@ -37,7 +37,7 @@ async fn storage_create_works() {
     assert_eq!(response_body, expected_body_json);
 
     remove_dir_all(format!(
-        "/home/jeff/dev/source/repos/rust-lang/pavex-html/testing/{}",
+        "C:\\Users\\jdm\\dev\\source\\repos\\rust-lang\\pavex-web-server\\testing\\{}",
         test_dir
     ))
     .expect("Unable to remove the temporary test file directory");

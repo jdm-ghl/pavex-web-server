@@ -5,4 +5,4 @@ server:
   ip: "127.0.0.1"
   port: 8000
 local_storage:
-  root: "/home/jeff/dev/source/repos/rust-lang/pavex-html/testing"
+  root: "C:\\Users\\jdm\\dev\\source\\repos\\rust-lang\\pavex-web-server\\testing"

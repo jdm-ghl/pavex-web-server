@@ -14,6 +14,6 @@ pub fn blueprint() -> Blueprint {
     bp.singleton(f!(crate::template::compile_templates));
     bp.transient(f!(crate::asset::StaticAsset::build_static_asset))
         .clone_if_necessary();
-    
+
     bp
 }
